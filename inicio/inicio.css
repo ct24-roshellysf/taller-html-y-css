@@ -106,7 +106,14 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: 1fr;
 grid-column-gap: 10px;
-grid-row-gap: px;
+align-items: center;
+justify-content: center;
+padding: 40px;
+}
+img{
+    max-width: 350px;
+    margin: 10px;
+    justify-content: center;
 }
 
 footer{
@@ -116,5 +123,4 @@ footer{
     padding: 20px;
     position: relative;
     bottom: 0;
-    width: 100%;
 }
